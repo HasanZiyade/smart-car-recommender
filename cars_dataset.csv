@@ -1,0 +1,106 @@
+brand,model,year,price,fuel,type,reliability,insurance_cost,maintenance_cost,suitable_driver_type
+Toyota,Corolla,2018,15000,Petrol,Sedan,High,Low,Low,Student;Commuter;Family
+Honda,Civic,2019,17000,Petrol,Sedan,High,Low,Low,Student;Commuter;Family
+Toyota,Camry,2017,18000,Petrol,Sedan,High,Medium,Low,Family;Commuter
+Honda,Accord,2018,20000,Petrol,Sedan,High,Medium,Low,Family;Commuter
+Toyota,RAV4,2019,22000,Petrol,SUV,High,Medium,Medium,Family;Commuter
+Honda,CR-V,2018,21000,Petrol,SUV,High,Medium,Medium,Family;Commuter
+Mazda,CX-5,2017,19000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter
+Subaru,Outback,2018,20000,Petrol,SUV,High,Medium,Medium,Family;Commuter
+Toyota,Prius,2017,16000,Hybrid,Sedan,High,Low,Low,Commuter;Student
+Honda,Insight,2019,18000,Hybrid,Sedan,High,Low,Low,Commuter;Student
+Nissan,Sentra,2018,13000,Petrol,Sedan,Medium,Low,Medium,Student;Budget
+Hyundai,Elantra,2017,12000,Petrol,Sedan,Medium,Low,Medium,Student;Budget
+Kia,Forte,2018,14000,Petrol,Sedan,Medium,Low,Medium,Student;Budget
+Chevrolet,Malibu,2017,14000,Petrol,Sedan,Medium,Medium,Medium,Family;Budget
+Ford,Focus,2018,13000,Petrol,Hatchback,Medium,Medium,Medium,Student;Budget
+Volkswagen,Jetta,2017,15000,Petrol,Sedan,Medium,Medium,High,Student;Commuter
+BMW,3 Series,2016,25000,Petrol,Sedan,Medium,High,High,Enthusiast
+Audi,A4,2017,27000,Petrol,Sedan,Medium,High,High,Enthusiast
+Mercedes,C-Class,2016,26000,Petrol,Sedan,Medium,High,High,Enthusiast
+Lexus,IS,2017,24000,Petrol,Sedan,High,High,Medium,Enthusiast
+Toyota,Highlander,2017,23000,Petrol,SUV,High,Medium,Medium,Family
+Honda,Pilot,2018,25000,Petrol,SUV,High,Medium,Medium,Family
+Ford,Explorer,2017,22000,Petrol,SUV,Medium,Medium,High,Family
+Chevrolet,Tahoe,2016,28000,Petrol,SUV,Medium,High,High,Family
+Jeep,Wrangler,2017,24000,Petrol,SUV,Medium,High,High,Enthusiast
+Ford,Mustang,2017,23000,Petrol,Coupe,Medium,High,High,Enthusiast
+Chevrolet,Camaro,2016,22000,Petrol,Coupe,Medium,High,High,Enthusiast
+Dodge,Charger,2017,21000,Petrol,Sedan,Medium,High,High,Enthusiast
+Subaru,Impreza,2018,16000,Petrol,Sedan,High,Low,Low,Student;Commuter
+Mazda,Mazda3,2017,15000,Petrol,Sedan,Medium,Low,Medium,Student;Commuter
+Toyota,Avalon,2018,22000,Petrol,Sedan,High,Medium,Low,Family;Commuter
+Honda,Ridgeline,2017,26000,Petrol,Truck,High,Medium,Medium,Family;Enthusiast
+Ford,F-150,2018,24000,Petrol,Truck,Medium,Medium,High,Family;Enthusiast
+Chevrolet,Silverado,2017,23000,Petrol,Truck,Medium,Medium,High,Family;Enthusiast
+Toyota,Tacoma,2018,25000,Petrol,Truck,High,Medium,Medium,Family;Enthusiast
+Nissan,Frontier,2017,19000,Petrol,Truck,Medium,Low,Medium,Budget;Family
+Ram,1500,2018,25000,Petrol,Truck,Medium,Medium,High,Family;Enthusiast
+GMC,Sierra,2017,24000,Petrol,Truck,Medium,Medium,High,Family;Enthusiast
+Jeep,Cherokee,2018,20000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter
+Nissan,Rogue,2017,17000,Petrol,SUV,Medium,Low,Medium,Family;Commuter
+Hyundai,Tucson,2018,18000,Petrol,SUV,Medium,Low,Medium,Family;Commuter
+Kia,Sorento,2017,19000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter
+Ford,Escape,2018,17000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter
+Chevrolet,Equinox,2017,16000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter
+Buick,Encore,2018,15000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter
+Cadillac,XT5,2017,30000,Petrol,SUV,Medium,High,High,Enthusiast;Family
+Lincoln,MKC,2018,28000,Petrol,SUV,Medium,High,High,Enthusiast;Family
+Acura,RDX,2017,26000,Petrol,SUV,High,High,Medium,Enthusiast;Family
+Infiniti,QX50,2018,27000,Petrol,SUV,Medium,High,Medium,Enthusiast;Family
+Volvo,XC60,2017,29000,Petrol,SUV,High,High,High,Enthusiast;Family
+BMW,X3,2018,32000,Petrol,SUV,Medium,High,High,Enthusiast
+Audi,Q5,2017,31000,Petrol,SUV,Medium,High,High,Enthusiast
+Mercedes,GLC,2018,33000,Petrol,SUV,Medium,High,High,Enthusiast
+Lexus,RX,2017,35000,Petrol,SUV,High,High,Medium,Enthusiast;Family
+Porsche,Macan,2018,45000,Petrol,SUV,Medium,High,High,Enthusiast
+Tesla,Model S,2017,40000,Electric,Sedan,High,Medium,Low,Enthusiast;Commuter
+Tesla,Model 3,2018,35000,Electric,Sedan,High,Medium,Low,Enthusiast;Commuter
+Tesla,Model X,2017,50000,Electric,SUV,High,High,Low,Enthusiast;Family
+Chevrolet,Bolt,2018,22000,Electric,Hatchback,Medium,Low,Low,Commuter;Student
+Nissan,Leaf,2017,20000,Electric,Hatchback,Medium,Low,Low,Commuter;Student
+BMW,i3,2018,25000,Electric,Hatchback,Medium,Medium,Medium,Commuter;Enthusiast
+Toyota,Prius Prime,2017,19000,Hybrid,Sedan,High,Low,Low,Commuter;Student
+Honda,Clarity,2018,21000,Hybrid,Sedan,High,Low,Low,Commuter;Student
+Ford,Fusion Hybrid,2017,18000,Hybrid,Sedan,Medium,Low,Low,Commuter;Family
+Hyundai,Ioniq,2018,17000,Hybrid,Sedan,Medium,Low,Low,Commuter;Student
+Kia,Niro,2017,16000,Hybrid,SUV,Medium,Low,Low,Commuter;Family
+Lexus,ES,2018,28000,Hybrid,Sedan,High,Medium,Low,Family;Commuter
+Lexus,NX,2017,32000,Hybrid,SUV,High,High,Medium,Family;Enthusiast
+Toyota,Highlander Hybrid,2018,30000,Hybrid,SUV,High,Medium,Medium,Family;Commuter
+Honda,Passport,2019,29000,Petrol,SUV,High,Medium,Medium,Family;Commuter
+Subaru,Forester,2018,19000,Petrol,SUV,High,Low,Low,Family;Commuter
+Subaru,Legacy,2017,17000,Petrol,Sedan,High,Low,Low,Family;Commuter
+Subaru,Crosstrek,2018,18000,Petrol,SUV,High,Low,Low,Commuter;Student
+Mitsubishi,Outlander,2017,15000,Petrol,SUV,Medium,Low,Medium,Family;Budget
+Mitsubishi,Lancer,2018,12000,Petrol,Sedan,Medium,Low,Medium,Student;Budget
+Dodge,Journey,2017,14000,Petrol,SUV,Low,Medium,High,Family;Budget
+Chrysler,200,2018,13000,Petrol,Sedan,Low,Medium,High,Budget;Student
+Buick,LaCrosse,2017,20000,Petrol,Sedan,Medium,Medium,Medium,Family;Commuter
+Cadillac,ATS,2018,22000,Petrol,Sedan,Medium,High,High,Enthusiast
+Lincoln,Continental,2017,25000,Petrol,Sedan,Medium,High,High,Enthusiast;Family
+Genesis,G80,2018,30000,Petrol,Sedan,High,High,Medium,Enthusiast;Family
+Genesis,G90,2017,35000,Petrol,Sedan,High,High,Medium,Enthusiast;Family
+Acura,TLX,2018,24000,Petrol,Sedan,High,Medium,Medium,Enthusiast;Commuter
+Acura,MDX,2017,28000,Petrol,SUV,High,Medium,Medium,Family;Enthusiast
+Infiniti,Q50,2018,26000,Petrol,Sedan,Medium,High,Medium,Enthusiast;Commuter
+Infiniti,QX60,2017,27000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter
+Volvo,S60,2018,24000,Petrol,Sedan,High,Medium,High,Enthusiast;Commuter
+Volvo,V60,2017,23000,Petrol,Wagon,High,Medium,High,Family;Commuter
+Volvo,XC90,2018,38000,Petrol,SUV,High,High,High,Family;Enthusiast
+Jaguar,XE,2017,28000,Petrol,Sedan,Medium,High,High,Enthusiast
+Land Rover,Discovery Sport,2018,32000,Petrol,SUV,Medium,High,High,Enthusiast;Family
+Mini,Cooper,2017,18000,Petrol,Hatchback,Medium,Medium,Medium,Student;Enthusiast
+Mini,Countryman,2018,22000,Petrol,SUV,Medium,Medium,Medium,Family;Enthusiast
+Fiat,500,2017,11000,Petrol,Hatchback,Low,Low,High,Student;Budget
+Smart,ForTwo,2018,10000,Petrol,Hatchback,Low,Low,High,Student;Budget
+Scion,tC,2016,12000,Petrol,Coupe,Medium,Medium,Medium,Student;Enthusiast
+Pontiac,G6,2009,8000,Petrol,Sedan,Low,Low,High,Budget
+Saturn,Ion,2007,6000,Petrol,Sedan,Low,Low,High,Budget
+Mercury,Grand Marquis,2010,9000,Petrol,Sedan,Medium,Low,Medium,Budget;Family
+Oldsmobile,Alero,2004,5000,Petrol,Sedan,Low,Low,High,Budget
+Plymouth,Neon,2005,4000,Petrol,Sedan,Low,Low,High,Budget
+Saab,9-3,2008,7000,Petrol,Sedan,Low,Medium,High,Budget;Enthusiast
+Suzuki,SX4,2012,8000,Petrol,Hatchback,Medium,Low,Medium,Budget;Student
+Isuzu,Rodeo,2004,6000,Petrol,SUV,Low,Low,High,Budget
+Hummer,H3,2008,15000,Petrol,SUV,Low,High,High,Enthusiast
