@@ -2,7 +2,15 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import os
-from chatgpt_integration import CarRecommenderAI, get_ai_recommendations, CarConsultantAI
+
+# Try to import AI components with error handling
+try:
+    from chatgpt_integration import CarRecommenderAI, get_ai_recommendations, CarConsultantAI
+    AI_AVAILABLE = True
+except ImportError as e:
+    AI_AVAILABLE = False
+    st.error(f"❌ AI components not available: {e}")
+    st.info("Please ensure 'openai' package is installed: pip install openai>=1.0.0")
 
 # Page configuration
 st.set_page_config(
@@ -407,6 +415,22 @@ def show_car_consultant():
                 st.session_state.consultant_messages.append({"role": "assistant", "content": fallback_response})
 
 def main():
+    # Check if AI components are available
+    if not AI_AVAILABLE:
+        st.title("🚗 Smart Used Car Marketplace")
+        st.error("⚠️ AI Components Not Available")
+        st.markdown("""
+        This marketplace requires AI components to function properly.
+        
+        **Missing Dependencies:**
+        - OpenAI Python package
+        
+        **Setup Instructions:**
+        1. Install required packages: `pip install openai>=1.0.0`
+        2. Restart the application
+        """)
+        return
+    
     # Load data
     df = load_data()
     if df is None:
