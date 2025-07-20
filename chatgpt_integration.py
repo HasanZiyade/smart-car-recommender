@@ -254,3 +254,4 @@ Keep your responses concise but informative (2-3 paragraphs max). Use emojis occ
             
         except Exception as e:
             return None
+
