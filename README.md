@@ -1,37 +1,40 @@
-# 🚗 Smart Used Car Recommender
+# 🚗 Smart Used Car Marketplace
 
-A web application that provides personalized used car recommendations based on subjective criteria typically not available on regular car listing websites.
+An AI-powered web application that provides personalized used car recommendations from real marketplace listings using advanced AI analysis.
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
 ## 🌟 Features
 
-- **Intelligent Questionnaire**: Comprehensive form analyzing user preferences and needs
-- **Smart Recommendations**: Heuristic-based scoring algorithm that feels AI-powered
-- **Real-life Criteria**: Considers reliability, insurance costs, maintenance costs, and user suitability
-- **Interactive Interface**: Clean, modern Streamlit web interface
-- **Educational Focus**: Perfect for class demonstrations and learning
+- **AI-Powered Analysis**: Uses GPT-4o-mini to analyze 441 real used car listings
+- **Dual Scoring System**: Match Score + Pricing Score for comprehensive evaluation
+- **AI Car Consultant**: Built-in chatbot for car buying advice
+- **Performance Optimized**: Batch processing for 90% speed improvement
+- **Comprehensive Dataset**: Real marketplace data with mileage, pricing, and specifications
+- **Modern Interface**: Clean, responsive Streamlit web interface
 
-## 🎯 How It Works
+## 🤖 AI Capabilities
 
-The recommendation engine uses a sophisticated scoring system:
-- **Budget Fit (30%)**: How well the car price matches your budget
-- **Priority Factor (40%)**: Alignment with your most important criterion
-- **User Type Suitability (30%)**: How well the car matches your driver profile
+The marketplace uses advanced AI to:
+- **Analyze User Preferences**: Understands complex requirements and priorities
+- **Score All Cars**: No filtering - pure AI decision making
+- **Provide Explanations**: Clear reasoning for each recommendation
+- **Offer Consultation**: Expert advice on buying, financing, and maintenance
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 - Python 3.7 or higher
-- pip (Python package installer)
+- OpenAI API key
 
-### Installation
+### Local Installation
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/smart-car-recommender.git
+   git clone https://github.com/HasanZiyade/smart-car-recommender.git
    cd smart-car-recommender
    ```
 
@@ -40,12 +43,25 @@ The recommendation engine uses a sophisticated scoring system:
    pip install -r requirements.txt
    ```
 
-3. Run the application:
+3. Set up your OpenAI API key:
+   ```bash
+   # Create .env file
+   echo "OPENAI_API_KEY=your_api_key_here" > .env
+   ```
+
+4. Run the application:
    ```bash
    streamlit run main.py
    ```
 
-4. Open your browser to `http://localhost:8501`
+5. Open your browser to `http://localhost:8501`
+
+### Streamlit Cloud Deployment
+
+1. Fork this repository
+2. Connect to [Streamlit Cloud](https://streamlit.io/cloud)
+3. Add your `OPENAI_API_KEY` in the app secrets
+4. Deploy with `streamlit_app.py` as entry point
 
 ## 📊 Dataset
 
