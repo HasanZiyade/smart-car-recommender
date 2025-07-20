@@ -1,106 +1,442 @@
-brand,model,year,price,fuel,type,reliability,insurance_cost,maintenance_cost,suitable_driver_type
-Toyota,Corolla,2018,15000,Petrol,Sedan,High,Low,Low,Student;Commuter;Family
-Honda,Civic,2019,17000,Petrol,Sedan,High,Low,Low,Student;Commuter;Family
-Toyota,Camry,2017,18000,Petrol,Sedan,High,Medium,Low,Family;Commuter
-Honda,Accord,2018,20000,Petrol,Sedan,High,Medium,Low,Family;Commuter
-Toyota,RAV4,2019,22000,Petrol,SUV,High,Medium,Medium,Family;Commuter
-Honda,CR-V,2018,21000,Petrol,SUV,High,Medium,Medium,Family;Commuter
-Mazda,CX-5,2017,19000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter
-Subaru,Outback,2018,20000,Petrol,SUV,High,Medium,Medium,Family;Commuter
-Toyota,Prius,2017,16000,Hybrid,Sedan,High,Low,Low,Commuter;Student
-Honda,Insight,2019,18000,Hybrid,Sedan,High,Low,Low,Commuter;Student
-Nissan,Sentra,2018,13000,Petrol,Sedan,Medium,Low,Medium,Student;Budget
-Hyundai,Elantra,2017,12000,Petrol,Sedan,Medium,Low,Medium,Student;Budget
-Kia,Forte,2018,14000,Petrol,Sedan,Medium,Low,Medium,Student;Budget
-Chevrolet,Malibu,2017,14000,Petrol,Sedan,Medium,Medium,Medium,Family;Budget
-Ford,Focus,2018,13000,Petrol,Hatchback,Medium,Medium,Medium,Student;Budget
-Volkswagen,Jetta,2017,15000,Petrol,Sedan,Medium,Medium,High,Student;Commuter
-BMW,3 Series,2016,25000,Petrol,Sedan,Medium,High,High,Enthusiast
-Audi,A4,2017,27000,Petrol,Sedan,Medium,High,High,Enthusiast
-Mercedes,C-Class,2016,26000,Petrol,Sedan,Medium,High,High,Enthusiast
-Lexus,IS,2017,24000,Petrol,Sedan,High,High,Medium,Enthusiast
-Toyota,Highlander,2017,23000,Petrol,SUV,High,Medium,Medium,Family
-Honda,Pilot,2018,25000,Petrol,SUV,High,Medium,Medium,Family
-Ford,Explorer,2017,22000,Petrol,SUV,Medium,Medium,High,Family
-Chevrolet,Tahoe,2016,28000,Petrol,SUV,Medium,High,High,Family
-Jeep,Wrangler,2017,24000,Petrol,SUV,Medium,High,High,Enthusiast
-Ford,Mustang,2017,23000,Petrol,Coupe,Medium,High,High,Enthusiast
-Chevrolet,Camaro,2016,22000,Petrol,Coupe,Medium,High,High,Enthusiast
-Dodge,Charger,2017,21000,Petrol,Sedan,Medium,High,High,Enthusiast
-Subaru,Impreza,2018,16000,Petrol,Sedan,High,Low,Low,Student;Commuter
-Mazda,Mazda3,2017,15000,Petrol,Sedan,Medium,Low,Medium,Student;Commuter
-Toyota,Avalon,2018,22000,Petrol,Sedan,High,Medium,Low,Family;Commuter
-Honda,Ridgeline,2017,26000,Petrol,Truck,High,Medium,Medium,Family;Enthusiast
-Ford,F-150,2018,24000,Petrol,Truck,Medium,Medium,High,Family;Enthusiast
-Chevrolet,Silverado,2017,23000,Petrol,Truck,Medium,Medium,High,Family;Enthusiast
-Toyota,Tacoma,2018,25000,Petrol,Truck,High,Medium,Medium,Family;Enthusiast
-Nissan,Frontier,2017,19000,Petrol,Truck,Medium,Low,Medium,Budget;Family
-Ram,1500,2018,25000,Petrol,Truck,Medium,Medium,High,Family;Enthusiast
-GMC,Sierra,2017,24000,Petrol,Truck,Medium,Medium,High,Family;Enthusiast
-Jeep,Cherokee,2018,20000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter
-Nissan,Rogue,2017,17000,Petrol,SUV,Medium,Low,Medium,Family;Commuter
-Hyundai,Tucson,2018,18000,Petrol,SUV,Medium,Low,Medium,Family;Commuter
-Kia,Sorento,2017,19000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter
-Ford,Escape,2018,17000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter
-Chevrolet,Equinox,2017,16000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter
-Buick,Encore,2018,15000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter
-Cadillac,XT5,2017,30000,Petrol,SUV,Medium,High,High,Enthusiast;Family
-Lincoln,MKC,2018,28000,Petrol,SUV,Medium,High,High,Enthusiast;Family
-Acura,RDX,2017,26000,Petrol,SUV,High,High,Medium,Enthusiast;Family
-Infiniti,QX50,2018,27000,Petrol,SUV,Medium,High,Medium,Enthusiast;Family
-Volvo,XC60,2017,29000,Petrol,SUV,High,High,High,Enthusiast;Family
-BMW,X3,2018,32000,Petrol,SUV,Medium,High,High,Enthusiast
-Audi,Q5,2017,31000,Petrol,SUV,Medium,High,High,Enthusiast
-Mercedes,GLC,2018,33000,Petrol,SUV,Medium,High,High,Enthusiast
-Lexus,RX,2017,35000,Petrol,SUV,High,High,Medium,Enthusiast;Family
-Porsche,Macan,2018,45000,Petrol,SUV,Medium,High,High,Enthusiast
-Tesla,Model S,2017,40000,Electric,Sedan,High,Medium,Low,Enthusiast;Commuter
-Tesla,Model 3,2018,35000,Electric,Sedan,High,Medium,Low,Enthusiast;Commuter
-Tesla,Model X,2017,50000,Electric,SUV,High,High,Low,Enthusiast;Family
-Chevrolet,Bolt,2018,22000,Electric,Hatchback,Medium,Low,Low,Commuter;Student
-Nissan,Leaf,2017,20000,Electric,Hatchback,Medium,Low,Low,Commuter;Student
-BMW,i3,2018,25000,Electric,Hatchback,Medium,Medium,Medium,Commuter;Enthusiast
-Toyota,Prius Prime,2017,19000,Hybrid,Sedan,High,Low,Low,Commuter;Student
-Honda,Clarity,2018,21000,Hybrid,Sedan,High,Low,Low,Commuter;Student
-Ford,Fusion Hybrid,2017,18000,Hybrid,Sedan,Medium,Low,Low,Commuter;Family
-Hyundai,Ioniq,2018,17000,Hybrid,Sedan,Medium,Low,Low,Commuter;Student
-Kia,Niro,2017,16000,Hybrid,SUV,Medium,Low,Low,Commuter;Family
-Lexus,ES,2018,28000,Hybrid,Sedan,High,Medium,Low,Family;Commuter
-Lexus,NX,2017,32000,Hybrid,SUV,High,High,Medium,Family;Enthusiast
-Toyota,Highlander Hybrid,2018,30000,Hybrid,SUV,High,Medium,Medium,Family;Commuter
-Honda,Passport,2019,29000,Petrol,SUV,High,Medium,Medium,Family;Commuter
-Subaru,Forester,2018,19000,Petrol,SUV,High,Low,Low,Family;Commuter
-Subaru,Legacy,2017,17000,Petrol,Sedan,High,Low,Low,Family;Commuter
-Subaru,Crosstrek,2018,18000,Petrol,SUV,High,Low,Low,Commuter;Student
-Mitsubishi,Outlander,2017,15000,Petrol,SUV,Medium,Low,Medium,Family;Budget
-Mitsubishi,Lancer,2018,12000,Petrol,Sedan,Medium,Low,Medium,Student;Budget
-Dodge,Journey,2017,14000,Petrol,SUV,Low,Medium,High,Family;Budget
-Chrysler,200,2018,13000,Petrol,Sedan,Low,Medium,High,Budget;Student
-Buick,LaCrosse,2017,20000,Petrol,Sedan,Medium,Medium,Medium,Family;Commuter
-Cadillac,ATS,2018,22000,Petrol,Sedan,Medium,High,High,Enthusiast
-Lincoln,Continental,2017,25000,Petrol,Sedan,Medium,High,High,Enthusiast;Family
-Genesis,G80,2018,30000,Petrol,Sedan,High,High,Medium,Enthusiast;Family
-Genesis,G90,2017,35000,Petrol,Sedan,High,High,Medium,Enthusiast;Family
-Acura,TLX,2018,24000,Petrol,Sedan,High,Medium,Medium,Enthusiast;Commuter
-Acura,MDX,2017,28000,Petrol,SUV,High,Medium,Medium,Family;Enthusiast
-Infiniti,Q50,2018,26000,Petrol,Sedan,Medium,High,Medium,Enthusiast;Commuter
-Infiniti,QX60,2017,27000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter
-Volvo,S60,2018,24000,Petrol,Sedan,High,Medium,High,Enthusiast;Commuter
-Volvo,V60,2017,23000,Petrol,Wagon,High,Medium,High,Family;Commuter
-Volvo,XC90,2018,38000,Petrol,SUV,High,High,High,Family;Enthusiast
-Jaguar,XE,2017,28000,Petrol,Sedan,Medium,High,High,Enthusiast
-Land Rover,Discovery Sport,2018,32000,Petrol,SUV,Medium,High,High,Enthusiast;Family
-Mini,Cooper,2017,18000,Petrol,Hatchback,Medium,Medium,Medium,Student;Enthusiast
-Mini,Countryman,2018,22000,Petrol,SUV,Medium,Medium,Medium,Family;Enthusiast
-Fiat,500,2017,11000,Petrol,Hatchback,Low,Low,High,Student;Budget
-Smart,ForTwo,2018,10000,Petrol,Hatchback,Low,Low,High,Student;Budget
-Scion,tC,2016,12000,Petrol,Coupe,Medium,Medium,Medium,Student;Enthusiast
-Pontiac,G6,2009,8000,Petrol,Sedan,Low,Low,High,Budget
-Saturn,Ion,2007,6000,Petrol,Sedan,Low,Low,High,Budget
-Mercury,Grand Marquis,2010,9000,Petrol,Sedan,Medium,Low,Medium,Budget;Family
-Oldsmobile,Alero,2004,5000,Petrol,Sedan,Low,Low,High,Budget
-Plymouth,Neon,2005,4000,Petrol,Sedan,Low,Low,High,Budget
-Saab,9-3,2008,7000,Petrol,Sedan,Low,Medium,High,Budget;Enthusiast
-Suzuki,SX4,2012,8000,Petrol,Hatchback,Medium,Low,Medium,Budget;Student
-Isuzu,Rodeo,2004,6000,Petrol,SUV,Low,Low,High,Budget
-Hummer,H3,2008,15000,Petrol,SUV,Low,High,High,Enthusiast
+brand,model,year,mileage,price,fuel,type,reliability,insurance_cost,maintenance_cost,suitable_driver_type,color,mpg_city,mpg_highway,safety_rating,cargo_space
+Acura,ILX,2017,121226,20000,Petrol,Sedan,High,Medium,Medium,Student;Commuter,Silver,25,36,5,12
+Acura,MDX,2010,211592,13500,Petrol,SUV,High,Medium,Medium,Family;Enthusiast,Blue,16,23,4,16
+Acura,MDX,2011,224697,15500,Petrol,SUV,High,Medium,Medium,Family;Enthusiast,Red,16,23,5,16
+Acura,MDX,2013,159938,18500,Petrol,SUV,High,Medium,Medium,Family;Enthusiast,White,18,27,5,16
+Acura,MDX,2016,115133,24500,Petrol,SUV,High,Medium,Medium,Family;Enthusiast,Black,18,27,5,15
+Acura,MDX,2021,59417,35500,Petrol,SUV,High,Medium,Medium,Family;Enthusiast,Gray,19,26,5,15
+Acura,RDX,2017,118956,26000,Petrol,SUV,High,High,Medium,Enthusiast;Family,White,20,28,5,27
+Acura,TLX,2015,117092,18500,Petrol,Sedan,High,Medium,Medium,Enthusiast;Commuter,Silver,21,34,5,14
+Acura,TLX,2016,137456,19500,Petrol,Sedan,High,Medium,Medium,Enthusiast;Commuter,White,24,35,5,14
+Acura,TLX,2019,71360,24000,Petrol,Sedan,High,High,Medium,Enthusiast;Family,Gray,23,33,5,14
+Acura,TLX,2021,41633,28500,Petrol,Sedan,High,Medium,Medium,Enthusiast;Commuter,Black,22,31,5,14
+Alfa Romeo,Giulia,2018,86235,30000,Petrol,Sedan,Low,High,High,Enthusiast,Red,24,33,5,13
+Audi,A3,2018,77023,24000,Petrol,Sedan,Medium,High,High,Enthusiast,Silver,26,35,5,13
+Audi,A4,2012,161981,16500,Petrol,Sedan,Medium,High,High,Enthusiast,Black,22,32,5,12
+Audi,A4,2015,159141,21500,Petrol,Sedan,Medium,High,High,Enthusiast,White,24,34,5,12
+Audi,A4,2017,118033,27000,Petrol,Sedan,Medium,High,High,Enthusiast,White,27,37,5,12
+Audi,A4,2021,48843,35500,Petrol,Sedan,Medium,High,High,Enthusiast,Gray,24,31,5,12
+Audi,Q5,2017,164254,31000,Petrol,SUV,Medium,High,High,Enthusiast,White,23,28,5,25
+Audi,Q5,2018,102589,29000,Petrol,SUV,Medium,High,High,Luxury;Family,Gray,23,29,5,25
+BMW,2 Series,2017,60189,22000,Petrol,Coupe,Medium,High,High,Enthusiast,Blue,23,34,4,11
+BMW,3 Series,2011,145385,14500,Petrol,Sedan,Medium,High,High,Enthusiast,Silver,23,33,4,12
+BMW,3 Series,2014,110545,19500,Petrol,Sedan,Medium,High,High,Enthusiast,Black,23,35,5,13
+BMW,3 Series,2016,123942,25000,Petrol,Sedan,Medium,High,High,Enthusiast,Black,23,33,5,13
+BMW,3 Series,2020,60247,32500,Petrol,Sedan,Medium,High,High,Enthusiast,White,26,36,5,13
+BMW,X3,2017,116742,26000,Petrol,SUV,Medium,High,High,Luxury;Family,Black,23,30,5,28
+BMW,X3,2018,119304,32000,Petrol,SUV,Medium,High,High,Enthusiast,Black,23,29,5,28
+BMW,i3,2014,143434,16500,Electric,Hatchback,Medium,Medium,Medium,Commuter;Enthusiast,Blue,124,102,4,15
+BMW,i3,2016,116650,19500,Electric,Hatchback,Medium,Medium,Medium,Commuter;Enthusiast,Black,137,111,4,15
+BMW,i3,2018,93950,25000,Electric,Hatchback,Medium,Medium,Medium,Commuter;Enthusiast,Gray,124,102,4,15
+BMW,i3,2020,69548,28500,Electric,Hatchback,Medium,Medium,Medium,Commuter;Enthusiast,Gray,153,136,4,15
+Buick,Enclave,2011,267851,13500,Petrol,SUV,Medium,Medium,Medium,Family,Gray,15,22,4,116
+Buick,Enclave,2013,163496,16500,Petrol,SUV,Medium,Medium,Medium,Family,Black,17,24,4,58
+Buick,Enclave,2016,123061,22500,Petrol,SUV,Medium,Medium,Medium,Family,Silver,17,24,5,58
+Buick,Enclave,2018,134307,28000,Petrol,SUV,Medium,Medium,Medium,Family,Black,18,26,5,58
+Buick,Enclave,2021,56393,35500,Petrol,SUV,Medium,Medium,Medium,Family,White,18,26,5,58
+Buick,Encore,2018,106204,15000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter,White,25,33,4,19
+Buick,Regal,2017,124144,19000,Petrol,Sedan,Medium,Medium,Medium,Family;Commuter,Gray,21,32,5,14
+Cadillac,CTS,2014,123363,16500,Petrol,Sedan,Medium,High,High,Enthusiast,Silver,17,26,5,14
+Cadillac,CTS,2016,114580,19500,Petrol,Sedan,Medium,High,High,Enthusiast,White,20,30,5,14
+Cadillac,CTS,2017,100839,25000,Petrol,Sedan,Medium,High,High,Enthusiast,Black,20,30,5,14
+Cadillac,CTS,2019,91935,28500,Petrol,Sedan,Medium,High,High,Enthusiast,Black,20,30,5,14
+Cadillac,Escalade,2011,232799,22500,Petrol,SUV,Medium,High,High,Enthusiast;Family,Black,12,18,4,61
+Cadillac,Escalade,2013,146515,28500,Petrol,SUV,Medium,High,High,Enthusiast;Family,Silver,14,18,4,60
+Cadillac,Escalade,2016,126033,38500,Petrol,SUV,Medium,High,High,Enthusiast;Family,White,15,22,5,60
+Cadillac,Escalade,2017,123450,45000,Petrol,SUV,Medium,High,High,Enthusiast;Family,Black,15,22,5,60
+Cadillac,Escalade,2021,61286,58500,Petrol,SUV,Medium,High,High,Enthusiast;Family,Black,14,19,5,60
+Cadillac,XT5,2017,135991,30000,Petrol,SUV,Medium,High,High,Enthusiast;Family,Black,19,27,5,30
+Cadillac,XT5,2018,124309,26500,Petrol,SUV,Medium,High,High,Enthusiast;Family,Black,19,27,5,30
+Cadillac,XT5,2021,65373,38500,Petrol,SUV,Medium,High,High,Enthusiast;Family,Gray,19,26,5,30
+Chevrolet,Bolt,2018,83643,22000,Electric,Hatchback,Medium,Low,Low,Commuter;Student,Blue,127,108,5,17
+Chevrolet,Bolt,2018,98195,18500,Electric,Hatchback,Medium,Low,Low,Commuter;Student,White,128,110,5,17
+Chevrolet,Bolt,2021,57731,24500,Electric,Hatchback,Medium,Low,Low,Commuter;Student,Blue,120,108,5,17
+Chevrolet,Camaro,2010,123990,12500,Petrol,Coupe,Medium,High,High,Enthusiast,Silver,16,24,4,11
+Chevrolet,Camaro,2011,143269,13500,Petrol,Coupe,Medium,High,High,Enthusiast,Black,16,24,4,11
+Chevrolet,Camaro,2014,129694,16500,Petrol,Coupe,Medium,High,High,Enthusiast,Red,17,28,4,11
+Chevrolet,Camaro,2016,126769,22000,Petrol,Coupe,Medium,High,High,Enthusiast,Yellow,16,27,5,9
+Chevrolet,Camaro,2017,78895,22000,Petrol,Coupe,Medium,High,Medium,Enthusiast,Yellow,20,30,4,9
+Chevrolet,Camaro,2020,51264,24500,Petrol,Coupe,Medium,High,High,Enthusiast,Yellow,16,27,5,9
+Chevrolet,Equinox,2017,145280,16000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter,Silver,26,31,5,30
+Chevrolet,Equinox,2018,117947,18000,Petrol,SUV,Medium,Medium,Medium,Family,White,26,32,5,30
+Chevrolet,Express,2017,95148,22000,Petrol,Van,Medium,Medium,High,Family,Blue,11,16,3,239
+Chevrolet,Malibu,2012,143826,8500,Petrol,Sedan,Medium,Medium,Medium,Family;Budget,Black,22,33,4,16
+Chevrolet,Malibu,2014,171156,11500,Petrol,Sedan,Medium,Medium,Medium,Family;Budget,White,25,36,5,16
+Chevrolet,Malibu,2017,108299,14000,Petrol,Sedan,Medium,Medium,Medium,Family;Budget,Silver,27,36,5,16
+Chevrolet,Malibu,2020,59754,17500,Petrol,Sedan,Medium,Medium,Medium,Family;Commuter,Gray,29,36,5,16
+Chevrolet,Silverado,2010,278250,11500,Petrol,Truck,Medium,Medium,High,Family;Budget,Blue,15,21,4,54
+Chevrolet,Silverado,2012,207969,14500,Petrol,Truck,Medium,Medium,High,Family;Budget,Silver,15,21,4,54
+Chevrolet,Silverado,2015,168480,19500,Petrol,Truck,Medium,Medium,High,Family;Enthusiast,White,16,23,4,53
+Chevrolet,Silverado,2017,135319,23000,Petrol,Truck,Medium,Medium,High,Family;Enthusiast,Red,20,24,4,53
+Chevrolet,Silverado,2017,129337,26000,Petrol,Truck,Medium,Medium,Medium,Work;Family,White,16,23,4,53
+Chevrolet,Silverado,2021,44258,33500,Petrol,Truck,Medium,Medium,High,Family;Enthusiast,Black,16,22,4,53
+Chevrolet,Spark,2018,102292,10000,Petrol,Hatchback,Medium,Low,Medium,Student;Budget,Green,30,38,4,11
+Chevrolet,Suburban,2011,196986,19500,Petrol,SUV,Medium,High,High,Family,Blue,15,21,4,83
+Chevrolet,Suburban,2013,207464,24500,Petrol,SUV,Medium,High,High,Family,Silver,15,21,4,77
+Chevrolet,Suburban,2016,128684,32500,Petrol,SUV,Medium,High,High,Family,White,16,23,5,77
+Chevrolet,Suburban,2017,124619,35000,Petrol,SUV,Medium,High,High,Family,Black,16,23,5,77
+Chevrolet,Suburban,2021,75351,48500,Petrol,SUV,Medium,High,High,Family,Black,16,23,5,77
+Chevrolet,Tahoe,2016,145461,28000,Petrol,SUV,Medium,High,High,Family,Black,16,23,5,51
+Chevrolet,Traverse,2011,201397,11500,Petrol,SUV,Medium,Medium,Medium,Family,Black,16,23,4,117
+Chevrolet,Traverse,2013,260037,14500,Petrol,SUV,Medium,Medium,Medium,Family,Gray,17,24,4,58
+Chevrolet,Traverse,2016,166639,18500,Petrol,SUV,Medium,Medium,Medium,Family,White,17,24,5,58
+Chevrolet,Traverse,2017,102100,24000,Petrol,SUV,Medium,Medium,Medium,Family,Blue,18,27,5,58
+Chevrolet,Traverse,2020,68431,26500,Petrol,SUV,Medium,Medium,Medium,Family,Blue,18,27,5,58
+Chevrolet,Trax,2017,137605,15000,Petrol,SUV,Medium,Low,Medium,Student;Family,Blue,26,31,4,19
+Chrysler,Pacifica,2017,97154,24500,Petrol,Van,Medium,Medium,Medium,Family,Silver,18,28,5,32
+Chrysler,Pacifica,2018,70828,25000,Petrol,Van,Medium,Medium,Medium,Family,White,22,28,5,33
+Chrysler,Pacifica,2021,59887,32500,Petrol,Van,Medium,Medium,Medium,Family,White,19,28,5,33
+Dodge,Charger,2010,165286,10500,Petrol,Sedan,Medium,High,High,Enthusiast,Red,16,25,4,16
+Dodge,Charger,2012,131955,12500,Petrol,Sedan,Medium,High,High,Enthusiast,Silver,18,27,4,16
+Dodge,Charger,2015,143371,16500,Petrol,Sedan,Medium,High,High,Enthusiast,White,18,27,5,16
+Dodge,Charger,2017,94333,21000,Petrol,Sedan,Medium,High,High,Enthusiast,Black,19,30,5,16
+Dodge,Charger,2020,78913,23500,Petrol,Sedan,Medium,High,High,Enthusiast,Black,19,30,5,16
+Fiat,500,2011,177220,6500,Petrol,Hatchback,Low,Low,High,Student;Budget,Blue,30,38,4,10
+Fiat,500,2012,195557,7500,Petrol,Hatchback,Low,Low,High,Student;Budget,White,30,38,4,10
+Fiat,500,2015,158518,9500,Petrol,Hatchback,Low,Low,High,Student;Budget,Red,31,40,4,10
+Fiat,500,2017,124008,11000,Petrol,Hatchback,Low,Low,High,Student;Budget,Yellow,28,33,4,10
+Fiat,500,2019,113110,13500,Petrol,Hatchback,Low,Low,High,Student;Budget,Yellow,28,33,4,10
+Ford,EcoSport,2018,114433,16000,Petrol,SUV,Medium,Medium,Medium,Student;Family,Red,27,29,4,21
+Ford,Escape,2017,130535,16500,Petrol,SUV,Medium,Medium,Medium,Family;Commuter,Red,23,30,5,34
+Ford,Escape,2018,93598,17000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter,Green,23,30,4,34
+Ford,Expedition,2012,163579,18500,Petrol,SUV,Medium,High,High,Family,Blue,13,18,4,63
+Ford,Expedition,2014,196860,22500,Petrol,SUV,Medium,High,High,Family,Black,15,21,4,63
+Ford,Expedition,2017,120883,28500,Petrol,SUV,Medium,High,High,Family,Gray,17,24,5,63
+Ford,Expedition,2018,107278,32000,Petrol,SUV,Medium,High,High,Family,Silver,17,24,5,63
+Ford,Expedition,2021,63062,45500,Petrol,SUV,Medium,High,High,Family,White,17,24,5,63
+Ford,Explorer,2017,139191,22000,Petrol,SUV,Medium,Medium,High,Family,White,20,28,4,43
+Ford,F-150,2010,226521,12500,Petrol,Truck,Medium,Medium,High,Family;Budget,Gray,14,20,4,54
+Ford,F-150,2013,192800,16500,Petrol,Truck,Medium,Medium,High,Family;Enthusiast,Red,15,21,4,52
+Ford,F-150,2016,197282,22500,Petrol,Truck,Medium,Medium,High,Family;Enthusiast,Blue,17,23,5,52
+Ford,F-150,2016,131677,24000,Petrol,Truck,Medium,Medium,Medium,Work;Family,Blue,18,25,5,52
+Ford,F-150,2018,131216,24000,Petrol,Truck,Medium,Medium,High,Family;Enthusiast,Blue,20,26,4,52
+Ford,F-150,2022,52468,35500,Petrol,Truck,Medium,Medium,High,Family;Enthusiast,White,20,26,5,52
+Ford,Focus,2011,188057,6500,Petrol,Hatchback,Medium,Medium,Medium,Student;Budget,Silver,24,35,4,24
+Ford,Focus,2013,181401,8500,Petrol,Hatchback,Medium,Medium,Medium,Student;Budget,Blue,26,36,4,24
+Ford,Focus,2016,144647,12500,Petrol,Hatchback,Medium,Medium,Medium,Student;Commuter,Red,26,38,4,23
+Ford,Focus,2018,95631,13000,Petrol,Hatchback,Medium,Medium,Medium,Student;Budget,Blue,26,36,4,23
+Ford,Fusion Hybrid,2012,174977,10500,Hybrid,Sedan,Medium,Low,Low,Family;Budget,Blue,39,36,4,12
+Ford,Fusion Hybrid,2015,118244,13500,Hybrid,Sedan,Medium,Low,Low,Commuter;Family,Silver,44,41,5,12
+Ford,Fusion Hybrid,2017,120844,18000,Hybrid,Sedan,Medium,Low,Low,Commuter;Family,White,43,41,5,12
+Ford,Fusion Hybrid,2019,77519,19500,Hybrid,Sedan,Medium,Low,Low,Commuter;Family,White,43,41,5,12
+Ford,Mustang,2010,165918,12500,Petrol,Coupe,Medium,High,High,Enthusiast,Blue,17,26,3,11
+Ford,Mustang,2012,148549,14500,Petrol,Coupe,Medium,High,High,Enthusiast,White,19,31,3,11
+Ford,Mustang,2015,99658,18500,Petrol,Coupe,Medium,High,High,Enthusiast,Black,17,28,3,13
+Ford,Mustang,2016,103144,19500,Petrol,Coupe,Medium,High,Medium,Enthusiast,Red,21,31,4,13
+Ford,Mustang,2017,66851,23000,Petrol,Coupe,Medium,High,High,Enthusiast,Red,21,31,4,13
+Ford,Mustang,2020,56476,26500,Petrol,Coupe,Medium,High,High,Enthusiast,Red,21,32,4,13
+Ford,Transit,2018,92068,24000,Petrol,Van,Medium,Medium,High,Family,White,14,19,3,246
+Ford,Transit Connect,2017,95536,19000,Petrol,Van,Medium,Medium,High,Family;Budget,Silver,24,29,4,45
+GMC,Acadia,2011,235670,12500,Petrol,SUV,Medium,Medium,Medium,Family,Blue,17,24,4,116
+GMC,Acadia,2013,177039,15500,Petrol,SUV,Medium,Medium,Medium,Family,Black,17,24,4,43
+GMC,Acadia,2016,121929,19500,Petrol,SUV,Medium,Medium,Medium,Family,White,18,25,4,43
+GMC,Acadia,2017,97797,23000,Petrol,SUV,Medium,Medium,Medium,Family,White,21,26,4,42
+GMC,Acadia,2020,96413,28500,Petrol,SUV,Medium,Medium,Medium,Family,Gray,21,26,4,42
+GMC,Sierra,2010,256706,11500,Petrol,Truck,Medium,Medium,High,Family;Budget,Red,15,21,4,54
+GMC,Sierra,2012,238017,14500,Petrol,Truck,Medium,Medium,High,Family;Budget,Black,15,21,4,54
+GMC,Sierra,2015,194464,19500,Petrol,Truck,Medium,Medium,High,Family;Enthusiast,Gray,16,23,4,53
+GMC,Sierra,2017,115169,24000,Petrol,Truck,Medium,Medium,High,Family;Enthusiast,Silver,20,24,4,53
+GMC,Sierra,2021,71791,35500,Petrol,Truck,Medium,Medium,High,Family;Enthusiast,White,16,22,4,53
+GMC,Terrain,2018,105406,20000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter,White,26,30,4,30
+Genesis,G70,2019,67833,28000,Petrol,Sedan,High,High,Medium,Enthusiast;Commuter,Gray,22,30,5,11
+Genesis,G70,2020,63347,29500,Petrol,Sedan,High,High,Medium,Enthusiast;Commuter,Black,22,30,5,11
+Genesis,G70,2021,42776,32500,Petrol,Sedan,High,High,Medium,Enthusiast;Commuter,White,22,32,5,11
+Genesis,G80,2017,124490,26500,Petrol,Sedan,High,High,Medium,Enthusiast;Family,Gray,17,24,5,15
+Genesis,G80,2021,46191,38500,Petrol,Sedan,High,High,Medium,Enthusiast;Family,Silver,23,32,5,16
+Genesis,G90,2018,80113,32500,Petrol,Sedan,High,High,Medium,Enthusiast;Family,White,17,24,5,13
+Genesis,G90,2020,52896,42500,Petrol,Sedan,High,High,Medium,Enthusiast;Family,Black,17,25,5,13
+Honda,Accord,2011,175210,10500,Petrol,Sedan,High,Medium,Medium,Family;Budget,Red,23,34,5,14
+Honda,Accord,2013,165145,12500,Petrol,Sedan,High,Medium,Low,Family;Commuter,Black,27,36,5,16
+Honda,Accord,2014,131339,14500,Petrol,Sedan,High,Medium,Low,Family;Commuter,Gray,27,36,5,16
+Honda,Accord,2018,91474,20000,Petrol,Sedan,High,Medium,Low,Family;Commuter,Blue,30,38,5,16
+Honda,Accord,2018,76295,22736,Petrol,Sedan,High,Medium,Low,Family;Commuter,Black,30,38,5,16
+Honda,Accord,2018,124472,17765,Petrol,Sedan,High,Medium,Low,Family;Commuter,Blue,30,38,5,16
+Honda,Accord,2018,160916,16749,Petrol,Sedan,High,Medium,Low,Family;Commuter,Blue,30,38,5,16
+Honda,Accord,2021,59314,24500,Petrol,Sedan,High,Medium,Low,Family;Commuter,White,30,38,5,16
+Honda,Accord Hybrid,2014,111715,16500,Hybrid,Sedan,High,Medium,Low,Family;Commuter,Silver,50,45,5,14
+Honda,Accord Hybrid,2014,161025,13450,Hybrid,Sedan,High,Medium,Low,Family;Commuter,Silver,50,45,5,14
+Honda,Accord Hybrid,2014,198564,13531,Hybrid,Sedan,High,Medium,Low,Family;Commuter,Silver,50,45,5,14
+Honda,Accord Hybrid,2014,114186,16500,Hybrid,Sedan,High,Medium,Low,Family;Commuter,Silver,50,45,5,14
+Honda,Accord Hybrid,2018,83875,22500,Hybrid,Sedan,High,Medium,Low,Family;Commuter,Black,47,47,5,16
+Honda,Accord Hybrid,2021,44360,26500,Hybrid,Sedan,High,Medium,Low,Family;Commuter,White,48,48,5,16
+Honda,CR-V,2011,212348,12500,Petrol,SUV,High,Medium,Medium,Family;Commuter,Gray,23,31,5,37
+Honda,CR-V,2011,178746,14588,Petrol,SUV,High,Medium,Medium,Family;Commuter,Gray,23,31,5,37
+Honda,CR-V,2011,325580,9706,Petrol,SUV,High,Medium,Medium,Family;Commuter,Gray,23,31,5,37
+Honda,CR-V,2015,100999,17500,Petrol,SUV,High,Medium,Medium,Family;Commuter,Red,26,33,5,37
+Honda,CR-V,2018,94463,21000,Petrol,SUV,High,Medium,Medium,Family;Commuter,Gray,28,34,5,39
+Honda,CR-V,2022,56413,26500,Petrol,SUV,High,Medium,Medium,Family;Commuter,White,28,34,5,39
+Honda,CR-V Hybrid,2020,76500,26500,Hybrid,SUV,High,Medium,Medium,Family;Commuter,Blue,40,35,5,39
+Honda,CR-V Hybrid,2020,86397,26500,Hybrid,SUV,High,Medium,Medium,Family;Commuter,Blue,40,35,5,39
+Honda,CR-V Hybrid,2020,55680,28822,Hybrid,SUV,High,Medium,Medium,Family;Commuter,Blue,40,35,5,39
+Honda,CR-V Hybrid,2020,66273,28583,Hybrid,SUV,High,Medium,Medium,Family;Commuter,Blue,40,35,5,39
+Honda,CR-V Hybrid,2021,65421,28500,Hybrid,SUV,High,Medium,Medium,Family;Commuter,Gray,40,35,5,39
+Honda,Civic,2010,223130,8500,Petrol,Sedan,Medium,Low,Medium,Student;Budget,Gray,25,36,4,12
+Honda,Civic,2011,188915,9500,Petrol,Sedan,High,Low,Low,Student;Budget,Blue,28,36,5,12
+Honda,Civic,2014,161719,11500,Petrol,Sedan,High,Low,Low,Student;Budget,Silver,28,36,5,12
+Honda,Civic,2019,80254,17000,Petrol,Sedan,High,Low,Low,Student;Commuter;Family,Silver,32,42,5,15
+Honda,Civic,2019,119537,14417,Petrol,Sedan,High,Low,Low,Student;Commuter;Family,Green,32,42,5,15
+Honda,Civic,2021,49993,21000,Petrol,Sedan,High,Low,Low,Student;Commuter;Family,White,32,42,5,15
+Honda,Clarity,2018,74810,21000,Hybrid,Sedan,High,Low,Low,Commuter;Student,Blue,110,103,5,15
+Honda,Clarity,2019,62027,21500,Hybrid,Sedan,High,Low,Low,Commuter;Student,White,110,103,5,15
+Honda,Clarity,2019,96047,17284,Hybrid,Sedan,High,Low,Low,Commuter;Student,White,110,103,5,15
+Honda,Clarity,2020,55860,23500,Hybrid,Sedan,High,Low,Low,Commuter;Student,Blue,110,103,5,15
+Honda,Fit,2018,92457,14000,Petrol,Hatchback,High,Low,Low,Student;Budget,Yellow,33,41,4,16
+Honda,Fit,2018,84849,13500,Petrol,Hatchback,High,Low,Low,Student;Urban,Orange,33,41,5,16
+Honda,Fit,2018,109635,14000,Petrol,Hatchback,High,Low,Low,Student;Budget,Yellow,33,41,4,16
+Honda,HR-V,2017,122778,18000,Petrol,SUV,High,Low,Low,Student;Family,Gray,28,34,4,24
+Honda,Insight,2012,157672,8500,Hybrid,Sedan,Medium,Low,Low,Student;Budget,White,41,44,4,11
+Honda,Insight,2019,79678,18000,Hybrid,Sedan,High,Low,Low,Commuter;Student,Blue,55,49,5,15
+Honda,Insight,2020,54219,19500,Hybrid,Sedan,High,Low,Low,Commuter;Student,Gray,55,49,5,15
+Honda,Odyssey,2010,158462,13500,Petrol,Van,High,Medium,Medium,Family,Silver,17,25,4,38
+Honda,Odyssey,2012,116985,16500,Petrol,Van,High,Medium,Medium,Family,White,17,25,5,38
+Honda,Odyssey,2015,141252,21500,Petrol,Van,High,Medium,Medium,Family,Blue,18,27,5,38
+Honda,Odyssey,2017,93057,27000,Petrol,Van,High,Medium,Medium,Family,Silver,19,28,5,39
+Honda,Odyssey,2020,53797,32500,Petrol,Van,High,Medium,Medium,Family,Gray,19,28,5,39
+Honda,Passport,2019,92033,29000,Petrol,SUV,High,Medium,Medium,Family;Commuter,Gray,20,25,5,41
+Honda,Pilot,2018,85418,25000,Petrol,SUV,High,Medium,Medium,Family,Gray,20,27,5,47
+Honda,Ridgeline,2014,154430,21500,Petrol,Truck,High,Medium,Medium,Family;Enthusiast,Silver,15,21,5,34
+Honda,Ridgeline,2017,128047,26000,Petrol,Truck,High,Medium,Medium,Family;Enthusiast,White,19,26,5,34
+Honda,Ridgeline,2020,68805,32500,Petrol,Truck,High,Medium,Medium,Family;Enthusiast,Black,18,24,5,34
+Hyundai,Accent,2016,116185,9200,Petrol,Sedan,Medium,Low,Low,Student;Budget,Red,28,38,4,13
+Hyundai,Accent,2018,94374,13000,Petrol,Sedan,Medium,Low,Medium,Student;Budget,Silver,28,38,4,14
+Hyundai,Elantra,2011,191494,6500,Petrol,Sedan,Medium,Low,Medium,Student;Budget,Gray,28,38,4,14
+Hyundai,Elantra,2014,127056,9500,Petrol,Sedan,Medium,Low,Medium,Student;Budget,Silver,28,38,4,14
+Hyundai,Elantra,2017,108923,12000,Petrol,Sedan,Medium,Low,Medium,Student;Budget,Red,32,40,5,14
+Hyundai,Elantra,2022,43589,18500,Petrol,Sedan,Medium,Low,Medium,Student;Commuter,Black,31,41,5,14
+Hyundai,Ioniq,2018,78294,17000,Hybrid,Sedan,Medium,Low,Low,Commuter;Student,Red,57,59,5,26
+Hyundai,Ioniq,2019,67995,18500,Hybrid,Sedan,Medium,Low,Low,Commuter;Student,Blue,55,54,5,26
+Hyundai,Ioniq,2020,56508,19500,Hybrid,Sedan,Medium,Low,Low,Commuter;Student,Red,57,59,5,26
+Hyundai,Tucson,2018,99629,18000,Petrol,SUV,Medium,Low,Medium,Family;Commuter,White,23,28,5,31
+Infiniti,Q50,2014,136170,16500,Petrol,Sedan,Medium,High,Medium,Enthusiast;Commuter,Silver,20,29,5,13
+Infiniti,Q50,2016,108032,19500,Petrol,Sedan,Medium,High,Medium,Enthusiast;Commuter,Black,22,30,5,13
+Infiniti,Q50,2020,44484,26500,Petrol,Sedan,Medium,High,Medium,Enthusiast;Commuter,White,23,30,5,13
+Infiniti,Q60,2018,60099,32000,Petrol,Coupe,Medium,High,Medium,Enthusiast,White,20,27,5,9
+Infiniti,QX50,2018,102667,27000,Petrol,SUV,Medium,High,Medium,Enthusiast;Family,Silver,24,31,5,31
+Infiniti,QX60,2011,212294,13500,Petrol,SUV,Medium,Medium,Medium,Family;Commuter,Blue,19,26,4,16
+Infiniti,QX60,2013,154072,16500,Petrol,SUV,Medium,Medium,Medium,Family;Commuter,Black,21,28,5,16
+Infiniti,QX60,2016,148108,21500,Petrol,SUV,Medium,Medium,Medium,Family;Commuter,White,21,28,5,16
+Infiniti,QX60,2021,80922,32500,Petrol,SUV,Medium,Medium,Medium,Family;Commuter,Gray,22,28,5,16
+Jaguar,F-Pace,2017,131052,35000,Petrol,SUV,Medium,High,High,Enthusiast;Family,Green,18,23,5,34
+Jaguar,XE,2016,157017,19500,Petrol,Sedan,Medium,High,High,Enthusiast,White,23,33,4,16
+Jaguar,XE,2017,100920,21500,Petrol,Sedan,Medium,High,High,Enthusiast,Black,21,30,4,16
+Jaguar,XE,2020,71391,28500,Petrol,Sedan,Medium,High,High,Enthusiast,Red,25,34,4,16
+Jeep,Cherokee,2018,115418,20000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter,Red,23,31,4,25
+Jeep,Compass,2017,143208,18000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter,Green,23,32,4,27
+Jeep,Wrangler,2011,209054,16500,Petrol,SUV,Medium,High,High,Enthusiast,Blue,15,19,3,31
+Jeep,Wrangler,2013,232277,18500,Petrol,SUV,Medium,High,High,Enthusiast,Red,17,21,3,31
+Jeep,Wrangler,2016,113705,24500,Petrol,SUV,Medium,High,High,Enthusiast,Black,17,21,3,31
+Jeep,Wrangler,2017,134001,24000,Petrol,SUV,Medium,High,High,Enthusiast,Green,17,25,3,31
+Jeep,Wrangler,2022,42019,33500,Petrol,SUV,Medium,High,High,Enthusiast,Green,22,24,3,31
+Kia,Forte,2011,209934,6500,Petrol,Sedan,Medium,Low,Medium,Student;Budget,Blue,26,36,4,14
+Kia,Forte,2014,166023,9500,Petrol,Sedan,Medium,Low,Medium,Student;Budget,Red,26,36,4,15
+Kia,Forte,2018,82579,14000,Petrol,Sedan,Medium,Low,Medium,Student;Budget,Black,31,41,4,15
+Kia,Forte,2021,45942,16500,Petrol,Sedan,Medium,Low,Medium,Student;Commuter,White,31,41,4,15
+Kia,Niro,2017,116435,16000,Hybrid,SUV,Medium,Low,Low,Commuter;Family,Green,50,45,5,19
+Kia,Niro,2018,111703,17500,Hybrid,SUV,Medium,Low,Low,Commuter;Family,White,50,45,5,19
+Kia,Niro,2020,100342,19500,Hybrid,SUV,Medium,Low,Low,Commuter;Family,Green,53,48,5,19
+Kia,Rio,2017,87402,12000,Petrol,Sedan,Medium,Low,Medium,Student;Budget,Red,29,37,4,14
+Kia,Rio,2017,76400,10500,Petrol,Hatchback,Medium,Low,Low,Student;Budget,Blue,32,40,4,17
+Kia,Sorento,2017,94019,19000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter,Gray,22,29,5,38
+Land Rover,Discovery Sport,2015,156405,22500,Petrol,SUV,Medium,High,High,Enthusiast;Family,White,18,25,4,23
+Land Rover,Discovery Sport,2017,149644,26500,Petrol,SUV,Medium,High,High,Enthusiast;Family,Black,20,25,4,23
+Land Rover,Discovery Sport,2021,73753,35500,Petrol,SUV,Medium,High,High,Enthusiast;Family,Green,21,25,4,23
+Land Rover,Range Rover Evoque,2012,214995,19500,Petrol,SUV,Medium,High,High,Enthusiast,Gray,18,26,4,20
+Land Rover,Range Rover Evoque,2014,176484,22500,Petrol,SUV,Medium,High,High,Enthusiast,Silver,20,28,4,20
+Land Rover,Range Rover Evoque,2017,108683,28500,Petrol,SUV,Medium,High,High,Enthusiast,White,21,30,4,21
+Land Rover,Range Rover Evoque,2018,114394,38000,Petrol,SUV,Medium,High,High,Enthusiast,Black,21,30,4,21
+Land Rover,Range Rover Evoque,2021,48835,38500,Petrol,SUV,Medium,High,High,Enthusiast,Black,20,27,4,21
+Lexus,ES,2013,161817,18500,Hybrid,Sedan,High,Medium,Low,Family;Commuter,White,40,39,5,15
+Lexus,ES,2016,150790,24500,Hybrid,Sedan,High,Medium,Low,Family;Commuter,Silver,40,39,5,15
+Lexus,ES,2018,93415,28000,Hybrid,Sedan,High,Medium,Low,Family;Commuter,Black,44,45,5,16
+Lexus,ES,2018,95151,28000,Petrol,Sedan,High,High,Medium,Luxury;Family,White,22,33,5,16
+Lexus,ES,2021,56341,32500,Hybrid,Sedan,High,Medium,Low,Family;Commuter,Black,44,45,5,16
+Lexus,GS,2017,89737,35000,Petrol,Sedan,High,High,Medium,Enthusiast;Family,Black,19,29,5,18
+Lexus,IS,2011,172563,14500,Petrol,Sedan,High,High,Medium,Enthusiast,Silver,21,29,4,11
+Lexus,IS,2014,133160,18500,Petrol,Sedan,High,High,Medium,Enthusiast,Black,21,30,5,11
+Lexus,IS,2017,100089,24000,Petrol,Sedan,High,High,Medium,Enthusiast,Red,21,30,5,11
+Lexus,IS,2020,58539,28500,Petrol,Sedan,High,High,Medium,Enthusiast,Red,21,31,5,11
+Lexus,NX,2017,112331,32000,Hybrid,SUV,High,High,Medium,Family;Enthusiast,White,33,30,5,17
+Lexus,RX,2017,150661,35000,Petrol,SUV,High,High,Medium,Enthusiast;Family,Gray,20,27,5,18
+Lincoln,Continental,2018,77803,24500,Petrol,Sedan,Medium,High,High,Enthusiast;Family,Gray,16,25,5,16
+Lincoln,Continental,2020,60950,32500,Petrol,Sedan,Medium,High,High,Enthusiast;Family,Black,16,24,5,16
+Lincoln,MKC,2018,92161,28000,Petrol,SUV,Medium,High,High,Enthusiast;Family,Red,20,29,4,26
+Lincoln,MKZ,2013,144706,14500,Petrol,Sedan,Medium,High,High,Enthusiast;Family,White,18,26,5,16
+Lincoln,MKZ,2016,97370,18500,Petrol,Sedan,Medium,High,High,Enthusiast;Family,Black,17,26,5,16
+Lincoln,MKZ,2018,99259,23000,Petrol,Sedan,Medium,High,High,Enthusiast;Family,Silver,20,31,5,16
+Lincoln,MKZ,2020,64727,26500,Petrol,Sedan,Medium,High,High,Enthusiast;Family,Silver,20,31,5,16
+Lincoln,Navigator,2015,170283,32500,Petrol,SUV,Medium,High,High,Enthusiast;Family,Silver,14,20,5,57
+Lincoln,Navigator,2017,112054,42500,Petrol,SUV,Medium,High,High,Enthusiast;Family,Black,16,23,5,57
+Lincoln,Navigator,2018,122008,48000,Petrol,SUV,Medium,High,High,Enthusiast;Family,White,16,23,5,57
+Lincoln,Navigator,2021,66488,65500,Petrol,SUV,Medium,High,High,Enthusiast;Family,White,16,23,5,57
+Maserati,Ghibli,2017,116861,42000,Petrol,Sedan,Low,High,High,Enthusiast,White,17,25,4,18
+Mazda,CX-3,2018,129502,17000,Petrol,SUV,Medium,Low,Medium,Student;Commuter,Red,29,34,4,13
+Mazda,CX-5,2013,149967,12500,Petrol,SUV,Medium,Medium,Medium,Family;Commuter,White,25,31,4,34
+Mazda,CX-5,2014,162497,14500,Petrol,SUV,Medium,Medium,Medium,Family;Commuter,Red,26,32,5,34
+Mazda,CX-5,2017,142403,19000,Petrol,SUV,Medium,Medium,Medium,Family;Commuter,White,25,31,5,31
+Mazda,CX-5,2021,68292,23500,Petrol,SUV,Medium,Medium,Medium,Family;Commuter,Blue,25,31,5,31
+Mazda,Mazda3,2010,170091,7500,Petrol,Sedan,Medium,Low,Medium,Student;Budget,Silver,25,33,4,12
+Mazda,Mazda3,2012,151533,9500,Petrol,Sedan,Medium,Low,Medium,Student;Budget,Blue,25,33,4,12
+Mazda,Mazda3,2015,132466,12500,Petrol,Sedan,Medium,Low,Medium,Student;Commuter,White,28,38,5,12
+Mazda,Mazda3,2017,133568,15000,Petrol,Sedan,Medium,Low,Medium,Student;Commuter,Red,28,36,5,13
+Mazda,Mazda3,2020,54834,18500,Petrol,Sedan,Medium,Low,Medium,Student;Commuter,Red,26,35,5,13
+Mercedes,C-Class,2012,155871,17500,Petrol,Sedan,Medium,High,High,Enthusiast,White,21,31,5,12
+Mercedes,C-Class,2015,131931,23500,Petrol,Sedan,Medium,High,High,Enthusiast,Silver,25,34,5,13
+Mercedes,C-Class,2016,97086,26000,Petrol,Sedan,Medium,High,High,Enthusiast,Silver,24,32,5,13
+Mercedes,C-Class,2021,53640,37500,Petrol,Sedan,Medium,High,High,Enthusiast,Black,23,32,5,13
+Mercedes,CLA,2018,95909,26000,Petrol,Sedan,Medium,High,High,Enthusiast,Red,24,37,4,13
+Mercedes,GLC,2018,115447,33000,Petrol,SUV,Medium,High,High,Enthusiast,Silver,22,28,5,19
+Mercedes,Sprinter,2017,108738,35000,Petrol,Van,Medium,High,High,Family,Silver,14,17,4,319
+Mini,Cooper,2010,215116,10500,Petrol,Hatchback,Medium,Medium,Medium,Student;Budget,Blue,28,36,4,6
+Mini,Cooper,2012,147124,12500,Petrol,Hatchback,Medium,Medium,Medium,Student;Enthusiast,White,29,37,4,6
+Mini,Cooper,2015,107465,16500,Petrol,Hatchback,Medium,Medium,Medium,Student;Enthusiast,Red,28,37,4,9
+Mini,Cooper,2017,106432,18000,Petrol,Hatchback,Medium,Medium,Medium,Student;Enthusiast,Green,28,38,4,9
+Mini,Cooper,2020,51373,22500,Petrol,Hatchback,Medium,Medium,Medium,Student;Enthusiast,Green,28,38,4,9
+Mini,Countryman,2013,208850,15500,Petrol,SUV,Medium,Medium,Medium,Family;Enthusiast,Silver,25,31,4,41
+Mini,Countryman,2016,124520,19500,Petrol,SUV,Medium,Medium,Medium,Family;Enthusiast,White,25,31,4,41
+Mini,Countryman,2018,100164,22000,Petrol,SUV,Medium,Medium,Medium,Family;Enthusiast,Blue,24,33,4,18
+Mini,Countryman,2021,47926,28500,Petrol,SUV,Medium,Medium,Medium,Family;Enthusiast,Black,26,33,4,18
+Mitsubishi,Lancer,2018,80872,12000,Petrol,Sedan,Medium,Low,Medium,Student;Budget,Red,26,34,4,12
+Mitsubishi,Mirage,2017,93162,9000,Petrol,Hatchback,Low,Low,Medium,Student;Budget,Blue,36,43,3,17
+Mitsubishi,Outlander,2017,147580,15000,Petrol,SUV,Medium,Low,Medium,Family;Budget,White,25,30,4,31
+Nissan,Frontier,2010,202605,9500,Petrol,Truck,Medium,Low,Medium,Family;Budget,Red,18,23,3,38
+Nissan,Frontier,2012,221359,12500,Petrol,Truck,Medium,Low,Medium,Family;Budget,Blue,21,27,3,38
+Nissan,Frontier,2015,137016,16500,Petrol,Truck,Medium,Low,Medium,Family;Budget,Gray,19,23,3,39
+Nissan,Frontier,2017,118277,19000,Petrol,Truck,Medium,Low,Medium,Budget;Family,White,21,27,3,38
+Nissan,Frontier,2020,77659,24500,Petrol,Truck,Medium,Low,Medium,Family;Commuter,White,20,27,3,38
+Nissan,Leaf,2012,164672,8500,Electric,Hatchback,Medium,Low,Low,Student;Budget,White,106,92,4,24
+Nissan,Leaf,2012,253877,7486,Electric,Hatchback,Medium,Low,Low,Student;Budget,Black,106,92,4,24
+Nissan,Leaf,2015,114866,12500,Electric,Hatchback,Medium,Low,Low,Student;Budget,Blue,126,101,4,24
+Nissan,Leaf,2017,101968,20000,Electric,Hatchback,Medium,Low,Low,Commuter;Student,White,124,99,4,24
+Nissan,Leaf,2017,104061,15000,Electric,Hatchback,High,Medium,Low,Eco;Urban,White,124,99,5,24
+Nissan,Leaf,2020,70290,22500,Electric,Hatchback,Medium,Low,Low,Commuter;Student,Silver,149,99,4,24
+Nissan,NV200,2018,97354,18000,Petrol,Van,Medium,Low,Medium,Family;Budget,Gray,24,26,4,123
+Nissan,Rogue,2017,108606,17000,Petrol,SUV,Medium,Low,Medium,Family;Commuter,Blue,26,33,4,32
+Nissan,Sentra,2012,189221,7500,Petrol,Sedan,Medium,Low,Medium,Student;Budget,White,27,35,4,12
+Nissan,Sentra,2015,159918,10500,Petrol,Sedan,Medium,Low,Medium,Student;Budget,Blue,30,39,4,14
+Nissan,Sentra,2018,118407,13000,Petrol,Sedan,Medium,Low,Medium,Student;Budget,White,29,37,4,14
+Nissan,Sentra,2021,52739,16500,Petrol,Sedan,Medium,Low,Medium,Student;Commuter,Red,29,39,4,14
+Nissan,Versa,2015,148321,8500,Petrol,Sedan,Medium,Low,Medium,Student;Budget,White,31,40,4,15
+Nissan,Versa,2017,137621,11000,Petrol,Sedan,Medium,Low,Medium,Student;Budget,White,32,40,4,15
+Porsche,Macan,2018,130843,45000,Petrol,SUV,Medium,High,High,Enthusiast,Red,17,23,5,17
+Ram,1500,2010,199709,12500,Petrol,Truck,Medium,Medium,High,Family;Budget,Blue,13,19,3,54
+Ram,1500,2012,195064,15500,Petrol,Truck,Medium,Medium,High,Family;Enthusiast,Silver,14,20,4,54
+Ram,1500,2015,129839,20500,Petrol,Truck,Medium,Medium,High,Family;Enthusiast,White,17,25,4,54
+Ram,1500,2018,103454,25000,Petrol,Truck,Medium,Medium,High,Family;Enthusiast,Black,17,25,4,54
+Ram,1500,2021,81305,34500,Petrol,Truck,Medium,Medium,High,Family;Enthusiast,Black,20,25,4,54
+Ram,ProMaster City,2018,106128,20000,Petrol,Van,Medium,Medium,High,Family;Budget,White,21,24,3,104
+Smart,ForTwo,2010,233082,5500,Petrol,Hatchback,Low,Low,High,Student;Budget,White,33,41,3,8
+Smart,ForTwo,2011,222727,6500,Petrol,Hatchback,Low,Low,High,Student;Budget,Black,33,41,3,8
+Smart,ForTwo,2013,175871,8500,Petrol,Hatchback,Low,Low,High,Student;Budget,Silver,34,38,3,7
+Smart,ForTwo,2016,142487,12500,Petrol,Hatchback,Low,Low,High,Student;Budget,Red,32,39,3,7
+Smart,ForTwo,2018,107325,10000,Petrol,Hatchback,Low,Low,High,Student;Budget,Red,33,39,3,7
+Subaru,Crosstrek,2018,111251,18000,Petrol,SUV,High,Low,Low,Commuter;Student,Orange,27,33,5,21
+Subaru,Forester,2018,122866,19000,Petrol,SUV,High,Low,Low,Family;Commuter,Green,26,33,5,35
+Subaru,Impreza,2010,171898,8500,Petrol,Sedan,High,Low,Low,Student;Budget,Gray,25,33,4,12
+Subaru,Impreza,2012,187226,10500,Petrol,Sedan,High,Low,Low,Student;Budget,Red,25,34,5,12
+Subaru,Impreza,2015,127126,13500,Petrol,Sedan,High,Low,Low,Student;Commuter,White,27,36,5,12
+Subaru,Impreza,2018,89089,16000,Petrol,Sedan,High,Low,Low,Student;Commuter,Blue,28,36,5,12
+Subaru,Impreza,2021,53955,19500,Petrol,Sedan,High,Low,Low,Student;Commuter,Blue,28,36,5,12
+Subaru,Legacy,2017,104714,17000,Petrol,Sedan,High,Low,Low,Family;Commuter,Blue,25,34,5,15
+Subaru,Outback,2012,190332,11500,Petrol,SUV,High,Medium,Medium,Family;Commuter,Blue,23,30,4,34
+Subaru,Outback,2015,151113,16500,Petrol,SUV,High,Medium,Medium,Family;Commuter,Silver,25,33,5,35
+Subaru,Outback,2018,92425,20000,Petrol,SUV,High,Medium,Medium,Family;Commuter,Green,26,33,5,35
+Subaru,Outback,2022,47047,26500,Petrol,SUV,High,Medium,Medium,Family;Commuter,Green,26,33,5,35
+Subaru,STI,2018,83256,32000,Petrol,Sedan,Medium,High,High,Enthusiast,White,17,23,5,12
+Subaru,WRX,2017,120512,24000,Petrol,Sedan,Medium,High,Medium,Enthusiast,Blue,21,28,5,12
+Tesla,Model 3,2018,81506,35000,Electric,Sedan,High,Medium,Low,Enthusiast;Commuter,White,130,120,5,15
+Tesla,Model 3,2019,86762,32500,Electric,Sedan,High,Medium,Low,Enthusiast;Commuter,Black,141,132,5,15
+Tesla,Model 3,2022,42072,39500,Electric,Sedan,High,Medium,Low,Enthusiast;Commuter,White,134,126,5,15
+Tesla,Model S,2013,112328,28500,Electric,Sedan,High,Medium,Low,Enthusiast;Commuter,Red,89,90,5,26
+Tesla,Model S,2015,110168,32500,Electric,Sedan,High,Medium,Low,Enthusiast;Commuter,White,95,105,5,26
+Tesla,Model S,2017,88039,40000,Electric,Sedan,High,Medium,Low,Enthusiast;Commuter,Black,105,120,5,28
+Tesla,Model S,2020,65082,45500,Electric,Sedan,High,Medium,Low,Enthusiast;Commuter,Black,105,120,5,28
+Tesla,Model X,2016,120978,42500,Electric,SUV,High,High,Low,Enthusiast;Family,White,89,93,5,78
+Tesla,Model X,2017,118027,50000,Electric,SUV,High,High,Low,Enthusiast;Family,Silver,89,93,5,88
+Tesla,Model X,2020,68908,55500,Electric,SUV,High,High,Low,Enthusiast;Family,Silver,102,105,5,88
+Tesla,Model Y,2021,53031,38500,Electric,SUV,High,Medium,Low,Family;Commuter,Red,125,120,5,68
+Tesla,Model Y,2022,52558,42500,Electric,SUV,High,Medium,Low,Family;Commuter,Blue,131,117,5,68
+Toyota,Avalon,2018,86157,22000,Petrol,Sedan,High,Medium,Low,Family;Commuter,Silver,22,32,5,16
+Toyota,Camry,2010,170099,9500,Petrol,Sedan,High,Medium,Medium,Family;Budget,Blue,22,33,4,15
+Toyota,Camry,2012,180817,11000,Petrol,Sedan,High,Medium,Low,Family;Budget,Silver,25,35,4,15
+Toyota,Camry,2013,131441,13500,Petrol,Sedan,High,Medium,Low,Family;Commuter,Black,25,35,5,15
+Toyota,Camry,2017,96547,18000,Petrol,Sedan,High,Medium,Low,Family;Commuter,Black,28,39,5,15
+Toyota,Camry,2017,75817,20445,Petrol,Sedan,High,Medium,Low,Family;Commuter,Blue,28,39,5,15
+Toyota,Camry,2017,91678,18000,Petrol,Sedan,High,Medium,Low,Family;Commuter,Black,28,39,5,15
+Toyota,Camry,2020,80279,22500,Petrol,Sedan,High,Medium,Low,Family;Commuter,Silver,28,39,5,15
+Toyota,Camry Hybrid,2013,115281,14500,Hybrid,Sedan,High,Medium,Low,Family;Commuter,White,43,39,5,15
+Toyota,Camry Hybrid,2016,104516,18500,Hybrid,Sedan,High,Medium,Low,Family;Commuter,Red,40,38,5,15
+Toyota,Camry Hybrid,2021,50062,24500,Hybrid,Sedan,High,Medium,Low,Family;Commuter,Blue,51,53,5,15
+Toyota,Camry Hybrid,2021,89642,21163,Hybrid,Sedan,High,Medium,Low,Family;Commuter,Blue,51,53,5,15
+Toyota,Corolla,2010,208661,8000,Petrol,Sedan,High,Low,Low,Student;Budget,Silver,26,34,4,13
+Toyota,Corolla,2012,161151,9500,Petrol,Sedan,High,Low,Low,Student;Budget,White,28,36,4,12
+Toyota,Corolla,2015,121721,12500,Petrol,Sedan,High,Low,Low,Student;Commuter;Family,Red,30,40,5,13
+Toyota,Corolla,2018,92418,15000,Petrol,Sedan,High,Low,Low,Student;Commuter;Family,White,31,40,5,13
+Toyota,Corolla,2020,56245,18500,Petrol,Sedan,High,Low,Low,Student;Commuter;Family,Blue,31,40,5,13
+Toyota,Corolla Hatchback,2019,68317,17000,Petrol,Hatchback,High,Low,Low,Student;Commuter,Blue,30,38,5,18
+Toyota,Corolla Hatchback,2019,64608,17000,Petrol,Hatchback,High,Low,Low,Student;Commuter,Blue,30,38,5,18
+Toyota,Corolla Hatchback,2019,55844,19219,Petrol,Hatchback,High,Low,Low,Student;Commuter,Blue,30,38,5,18
+Toyota,Corolla Hatchback,2019,54836,19079,Petrol,Hatchback,High,Low,Low,Student;Commuter,Silver,30,38,5,18
+Toyota,Highlander,2017,117339,23000,Petrol,SUV,High,Medium,Medium,Family,Blue,21,27,5,42
+Toyota,Highlander Hybrid,2014,165849,21500,Hybrid,SUV,High,Medium,Medium,Family;Commuter,Gray,28,28,5,42
+Toyota,Highlander Hybrid,2016,131991,26500,Hybrid,SUV,High,Medium,Medium,Family;Commuter,Blue,28,28,5,42
+Toyota,Highlander Hybrid,2018,93819,30000,Hybrid,SUV,High,Medium,Medium,Family;Commuter,Silver,36,35,5,42
+Toyota,Highlander Hybrid,2021,66232,34500,Hybrid,SUV,High,Medium,Medium,Family;Commuter,Silver,36,35,5,42
+Toyota,Prius,2011,164616,9500,Hybrid,Sedan,High,Low,Low,Commuter;Budget,Blue,51,50,5,22
+Toyota,Prius,2014,169506,13500,Hybrid,Sedan,High,Low,Low,Commuter;Student,Silver,50,50,5,22
+Toyota,Prius,2017,94309,16000,Hybrid,Sedan,High,Low,Low,Commuter;Student,Silver,58,53,4,24
+Toyota,Prius,2021,41709,22500,Hybrid,Sedan,High,Low,Low,Commuter;Student,White,58,53,5,24
+Toyota,Prius Prime,2017,86669,19000,Hybrid,Sedan,High,Low,Low,Commuter;Student,Silver,114,109,4,20
+Toyota,Prius Prime,2018,87731,19500,Hybrid,Sedan,High,Low,Low,Commuter;Student,Silver,114,109,4,20
+Toyota,Prius Prime,2018,94390,19500,Plugin Hybrid,Hatchback,High,Medium,Low,Eco;Commuter,Silver,54,50,5,19
+Toyota,Prius Prime,2020,61218,22500,Hybrid,Sedan,High,Low,Low,Commuter;Student,White,127,108,4,20
+Toyota,RAV4,2012,209193,13500,Petrol,SUV,High,Medium,Medium,Family;Commuter,Blue,22,28,4,36
+Toyota,RAV4,2015,161121,16500,Petrol,SUV,High,Medium,Medium,Family;Commuter,Silver,24,31,5,38
+Toyota,RAV4,2019,73764,22000,Petrol,SUV,High,Medium,Medium,Family;Commuter,Red,26,35,5,37
+Toyota,RAV4,2019,86008,22000,Petrol,SUV,High,Medium,Medium,Family;Commuter,Black,26,35,5,37
+Toyota,RAV4,2022,57518,28500,Petrol,SUV,High,Medium,Medium,Family;Commuter,Black,27,35,5,37
+Toyota,RAV4,2022,82052,21690,Petrol,SUV,High,Medium,Medium,Family;Commuter,Green,27,35,5,37
+Toyota,RAV4,2022,102572,22239,Petrol,SUV,High,Medium,Medium,Family;Commuter,Red,27,35,5,37
+Toyota,Sienna,2010,181967,12500,Petrol,Van,High,Medium,Medium,Family,Blue,16,23,4,39
+Toyota,Sienna,2011,174078,14500,Petrol,Van,High,Medium,Medium,Family,Gray,16,23,4,39
+Toyota,Sienna,2013,151305,17500,Petrol,Van,High,Medium,Medium,Family,White,18,25,4,39
+Toyota,Sienna,2016,121540,22500,Petrol,Van,High,Medium,Medium,Family,Red,18,25,4,39
+Toyota,Sienna,2018,70929,26000,Petrol,Van,High,Medium,Medium,Family,Gray,19,27,4,40
+Toyota,Sienna,2018,84713,26000,Petrol,Van,High,Medium,Medium,Family,Gray,19,27,4,40
+Toyota,Sienna,2021,61268,35500,Petrol,Van,High,Medium,Medium,Family,Black,19,27,4,40
+Toyota,Tacoma,2011,178846,15500,Petrol,Truck,High,Medium,Medium,Family;Enthusiast,Blue,19,25,4,39
+Toyota,Tacoma,2013,163099,18500,Petrol,Truck,High,Medium,Medium,Family;Enthusiast,White,21,25,4,39
+Toyota,Tacoma,2016,167581,23500,Petrol,Truck,High,Medium,Medium,Family;Enthusiast,Red,19,24,4,42
+Toyota,Tacoma,2018,132350,25000,Petrol,Truck,High,Medium,Medium,Family;Enthusiast,Gray,21,25,4,42
+Toyota,Tacoma,2022,57968,31500,Petrol,Truck,High,Medium,Medium,Family;Enthusiast,Gray,20,23,4,42
+Toyota,Yaris,2018,92917,14000,Petrol,Hatchback,High,Low,Low,Student;Budget,White,32,40,4,15
+Toyota,Yaris,2018,164865,12220,Petrol,Hatchback,High,Low,Low,Student;Budget,White,32,40,4,15
+Toyota,Yaris,2018,85234,14000,Petrol,Hatchback,High,Low,Low,Student;Budget,White,32,40,4,15
+Toyota,Yaris,2018,66764,16506,Petrol,Hatchback,High,Low,Low,Student;Budget,White,32,40,4,15
+Toyota,Yaris,2019,62149,14500,Petrol,Hatchback,High,Low,Low,Student;Urban,Blue,32,40,4,15
+Volkswagen,Golf,2010,170870,8500,Petrol,Hatchback,Medium,Medium,High,Student;Budget,Blue,23,30,4,15
+Volkswagen,Golf,2012,150970,10500,Petrol,Hatchback,Medium,Medium,High,Student;Budget,Silver,24,33,5,15
+Volkswagen,Golf,2015,107217,14500,Petrol,Hatchback,Medium,Medium,High,Student;Commuter,Black,25,36,5,22
+Volkswagen,Golf,2017,90029,16000,Petrol,Hatchback,Medium,Medium,High,Student;Commuter,Silver,25,34,5,22
+Volkswagen,Golf,2020,69920,21500,Petrol,Hatchback,Medium,Medium,High,Student;Commuter,White,28,36,5,22
+Volkswagen,Jetta,2012,197999,9500,Petrol,Sedan,Medium,Medium,High,Student;Budget,Gray,24,34,5,16
+Volkswagen,Jetta,2015,111832,13500,Petrol,Sedan,Medium,Medium,High,Student;Commuter,White,25,36,5,16
+Volkswagen,Jetta,2017,124694,15000,Petrol,Sedan,Medium,Medium,High,Student;Commuter,Gray,30,40,5,14
+Volkswagen,Jetta,2020,66939,19500,Petrol,Sedan,Medium,Medium,High,Student;Commuter,Black,30,40,5,14
+Volkswagen,Passat,2010,155331,9500,Petrol,Sedan,Medium,Medium,High,Family;Budget,Black,22,31,4,14
+Volkswagen,Passat,2012,173503,11500,Petrol,Sedan,Medium,Medium,High,Family;Budget,Red,22,31,5,14
+Volkswagen,Passat,2015,125322,15500,Petrol,Sedan,Medium,Medium,High,Family;Commuter,White,25,36,5,16
+Volkswagen,Passat,2018,82292,19000,Petrol,Sedan,Medium,Medium,High,Family;Commuter,Black,25,36,5,16
+Volkswagen,Passat,2020,77333,22500,Petrol,Sedan,Medium,Medium,High,Family;Commuter,Gray,23,34,5,16
+Volvo,S60,2011,167149,12500,Petrol,Sedan,High,Medium,High,Enthusiast;Commuter,Silver,19,29,4,12
+Volvo,S60,2012,155129,14500,Petrol,Sedan,High,Medium,High,Enthusiast;Commuter,White,20,30,5,12
+Volvo,S60,2015,145814,18500,Petrol,Sedan,High,Medium,High,Enthusiast;Commuter,Black,25,37,5,12
+Volvo,S60,2020,62677,26500,Petrol,Sedan,High,Medium,High,Enthusiast;Commuter,Blue,22,31,5,12
+Volvo,S90,2018,91120,32000,Petrol,Sedan,High,High,High,Enthusiast;Family,Blue,21,31,5,16
+Volvo,XC60,2011,247081,15500,Petrol,SUV,High,High,High,Enthusiast;Family,Blue,17,23,4,31
+Volvo,XC60,2013,162177,18500,Petrol,SUV,High,High,High,Enthusiast;Family,Black,18,25,5,31
+Volvo,XC60,2016,115213,23500,Petrol,SUV,High,High,High,Enthusiast;Family,Gray,20,27,5,30
+Volvo,XC60,2017,100116,29000,Petrol,SUV,High,High,High,Enthusiast;Family,Blue,22,28,5,30
+Volvo,XC60,2021,53428,35500,Petrol,SUV,High,High,High,Enthusiast;Family,White,22,29,5,30
+Volvo,XC90,2015,141138,26500,Petrol,SUV,High,High,High,Family;Enthusiast,Black,16,23,5,15
+Volvo,XC90,2016,161018,28500,Petrol,SUV,High,High,High,Family;Enthusiast,White,20,27,5,16
+Volvo,XC90,2021,56414,42500,Petrol,SUV,High,High,High,Family;Enthusiast,Silver,20,27,5,16
